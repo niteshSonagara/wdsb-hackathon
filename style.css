@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@400;800&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    margin: 0px;
+}
+.container_card{
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    max-width: 61%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+}
+.row{
+    display: flex;
+    padding:20px;
+    align-items: center;
+}
+.img-card{
+    height: 350px;
+    width: 180px;
+
+}
+.product-img{
+    display: flex;
+    justify-content: start;
+    object-fit: cover;
+    height: 350px;
+    width: 180px;
+    border-radius: 16px;
+}
+.ml-4{
+    margin-left: 30px;
+}
+.text-bold{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.badge{
+    padding: 10px;
+    border-radius: 90px;
+    background-color: #FFB830;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.currency{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.lightgray{
+    margin-left: 10px;
+    color: lightgray;
+}
+
+.purchase-now{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.wishlist{
+    background-color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    font-weight: 600;
+}
